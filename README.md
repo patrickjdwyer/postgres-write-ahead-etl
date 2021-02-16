@@ -32,6 +32,8 @@ More install instructions can be found at:
 
 Once the dependencies are set up, just run `jupyter notebook` to start the server.  The code is run sequentially from top to bottom.
 
+Note that if you are running Postgres in a different way than I described above, you may need to change the Postgres configuration parameters in cell 2.
+
 ## Implementation Details
 
 The job has three major steps:
